@@ -60,13 +60,14 @@
 */
 
 body {
-  background: #00416A;
-  background: #E4E5E6;
-  background: -webkit-linear-gradient(bottom, #00416A 0%, #E4E5E6 100%);
-  background: -o-linear-gradient(bottom, #00416A 0%, #E4E5E6 100%);
-  background: linear-gradient(to top, #00416A 0%, #E4E5E6 100%);
+  background: -webkit-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
+  background: -o-linear-gradient(bottom,#16222A 0%, #3A6073 100%);
+  background: linear-gradient(to top, #16222A 0%, #3A6073 100%);
   min-height: 100vh;
   overflow-x: hidden;
+}
+h1{
+  font-size: 3rem;
 }
 
 .separator {
@@ -80,4 +81,16 @@ body {
 
 .text-gray {
   color: #aaa;
+}
+
+/* CSS FOR MAIN DIV */
+.maindiv{
+  color: white;
+}
+
+.intro{
+   height: 100vh;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+
 }
