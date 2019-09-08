@@ -5,7 +5,6 @@
 * ==========================================
 *
 */
-
 .vertical-nav {
   min-width: 17rem;
   width: 17rem;
@@ -24,7 +23,6 @@
 }
 
 /* for toggle behavior */
-
 #sidebar.active {
   margin-left: -17rem;
 }
@@ -38,13 +36,16 @@
   #sidebar {
     margin-left: -17rem;
   }
+
   #sidebar.active {
     margin-left: 0;
   }
+
   #content {
     width: 100%;
     margin: 0;
   }
+
   #content.active {
     margin-left: 17rem;
     width: calc(100% - 17rem);
@@ -58,15 +59,15 @@
 * ==========================================
 *
 */
-
 body {
   background: -webkit-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
-  background: -o-linear-gradient(bottom,#16222A 0%, #3A6073 100%);
+  background: -o-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
   background: linear-gradient(to top, #16222A 0%, #3A6073 100%);
   min-height: 100vh;
   overflow-x: hidden;
 }
-h1{
+
+h1 {
   font-size: 3rem;
 }
 
@@ -84,13 +85,17 @@ h1{
 }
 
 /* CSS FOR MAIN DIV */
-.maindiv{
+.maindiv {
   color: white;
 }
 
-.intro{
-   height: 100vh;
+.intro {
+  height: 100vh;
   padding-top: 100px;
   font-family: 'Raleway', sans-serif;
+}
 
+.intro {
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
 }
