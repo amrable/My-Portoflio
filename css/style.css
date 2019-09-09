@@ -90,12 +90,25 @@ h1 {
 }
 
 .intro {
-  height: 100vh;
+  height: 90vh;
   padding-top: 100px;
   font-family: 'Raleway', sans-serif;
 }
 
 .intro {
-  height: 100vh;
+  height: 90vh;
   font-family: 'Raleway', sans-serif;
+}
+
+.right-separator{
+  width:50%;
+  display:inline-block;
+  background-color: white;
+
+}
+.left-separator{
+  width:50%;
+  display:inline-block;
+  background-color: white;
+
 }
