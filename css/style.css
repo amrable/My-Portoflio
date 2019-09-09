@@ -112,3 +112,9 @@ h1 {
   background-color: white;
 
 }
+.about-img{
+  width: 250px;
+  border-radius:1000px;
+  margin: auto auto auto auto;
+  text-align: center;
+}
