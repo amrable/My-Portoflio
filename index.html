@@ -20,7 +20,7 @@
   <!-- //Meta tag Keywords -->
 
   <!-- Custom-Files -->
-  <link rel="stylesheet" href="css/bootstrap.css"><!-- Bootstrap-Core-CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /><!-- Style-CSS -->
   <link rel="stylesheet" href="css/font-awesome.min.css"><!-- Font-Awesome-Icons-CSS -->
   <!-- //Custom-Files -->
@@ -38,61 +38,38 @@
 
 <body>
 
-  <!-- Vertical navbar -->
-  <div class="vertical-nav bg-white" id="sidebar">
-    <div class="py-4 px-3 mb-4 bg-light">
-      <div class="media d-flex align-items-center"><img src="images/amour.jpg" alt="..." width="65" class="mr-3 rounded-circle img-thumbnail shadow-sm">
-        <div class="media-body">
-          <h4 class="m-0">Amr Fahmy</h4>
-          <p class="font-weight-light text-muted mb-0">Software Engineering Student</p>
-        </div>
-      </div>
+  <!-- HORIZONTAL NAVBAR -->
+  <div class="container">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about_section">About me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+      </ul>
     </div>
+  </nav>
+</div>
 
-    <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
-
-    <ul class="nav flex-column bg-white mb-0">
-      <li class="nav-item">
-        <a href="index.html" class="nav-link text-dark font-italic bg-light">
-          <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
-          About Me
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="education.html" class="nav-link text-dark font-italic">
-          <i class="fa fa-university mr-3 text-primary fa-fw"></i>
-          Education
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="projects.html" class="nav-link text-dark font-italic">
-          <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
-          Projects
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="work.html" class="nav-link text-dark font-italic">
-          <i class="fa fa-briefcase mr-3 text-primary fa-fw"></i>
-          Work Experience
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="contact.html" class="nav-link text-dark font-italic">
-          <i class="fa fa-envelope mr-3 text-primary fa-fw"></i>
-          Contact Me
-        </a>
-      </li>
-    </ul>
-
-
-  </div>
-  <!-- End vertical navbar -->
-
+  <!-- / HORIZONTAL NAVBAR -->
 
   <!-- Page content holder -->
   <div class="page-content p-5" id="content">
-    <!-- Toggle button -->
-    <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
 
 
     <div class="container maindiv">
@@ -101,22 +78,22 @@
       <div class="intro">
         <div data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="center-center">
 
-          <h5>Hello, My name is</h5>
+          <h5 class="text-green">Hello, My name is</h5>
           <h1>Amr Fahmy</h1>
-          <h1>I Build programs</h1>
+          <h1 class="text-gray">I Build programs</h1>
 
         </div>
 
-        <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" data-aos-anchor-placement="center-center">
+        <div class="intro-desc" data-aos="fade-right" data-aos-offset="-1000" data-aos-duration="1500" data-aos-delay="500" data-aos-anchor-placement="center-center">
 
-          <p>I'm s software engineering student based in Alexandria, Egypt. Practicing problem solving is one of my favorite hobbies, currently working on self learning and educational projects.</p>
+          <p class="text-gray" >I'm s software engineering student based in Alexandria, Egypt. Practicing problem solving is one of my favorite hobbies, currently working on self learning and educational projects.</p>
         </div>
 
         <div class="">
 
-          <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700" data-aos-anchor-placement="center-center">
+          <div data-aos="fade-right" data-aos-offset="-1000" data-aos-duration="1500" data-aos-delay="700" data-aos-anchor-placement="center-center">
 
-            <button class="btn btn-outline-info" type="button" name="button">Get in touch !</button>
+            <button class="btn btn-outline-info btn-lg btn-touch"  type="button" name="button">Get in touch !</button>
           </div>
 
         </div>
@@ -132,7 +109,7 @@
         <div class="container">
           <div class="title">
 
-            <h1 style="display:inline-block"> 01. About Me </h1>
+            <h2 style="display:inline-block"> 01. About Me </h2>
             <hr class=" right-separator">
             </hr>
           </div>
@@ -150,16 +127,16 @@
 
                 <table>
                   <tr>
-                    <td><i class="fa fa-chevron-right"></i>Javascript</td>
+                    <td style="min-width:50px"><i class="fa fa-chevron-right"></i>Javascript</td>
                     <td><i class="fa fa-chevron-right"></i>Node.js</td>
                   </tr>
                   <tr>
-                    <td><i class="fa fa-chevron-right"></i>MongoDB</td>
+                    <td style="min-width:50px"><i class="fa fa-chevron-right"></i>MongoDB</td>
                     <td><i class="fa fa-chevron-right"></i>Express</td>
                   </tr>
 
                   <tr>
-                    <td> <i class="fa fa-chevron-right"></i>React</td>
+                    <td style="min-width:150px"> <i class="fa fa-chevron-right"></i>React</td>
                     <td><i class="fa fa-chevron-right"></i>HTML & CSS</td>
                   </tr>
                 </table>
@@ -189,9 +166,13 @@
   </div>
 
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-  <script src="js/index.js" type="text/javascript"></script>
-
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>  <script src="js/index.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
