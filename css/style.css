@@ -35,13 +35,8 @@ h1 {
 }
 
 .intro {
-  height: 90vh;
+  height: 85vh;
   padding-top: 100px;
-  font-family: 'Raleway', sans-serif;
-}
-
-.intro {
-  height: 90vh;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -50,6 +45,11 @@ h1 {
   display:inline-block;
   background-color: white;
 
+}
+.about{
+  height: 85vh;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
 }
 .about-img{
   width: 250px;
@@ -82,11 +82,19 @@ h1 {
 /* ------Experience------- */
 
 .experience{
+  height: 85vh;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-body{
+  margin-top: 50px;
   width: 600px;
 }
 .title{
   margin-top: 100px;
   width: 60%;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -97,7 +105,11 @@ h1 {
 
 }
 
+.numbers{
+  font-family: 'Space Mono', monospace;
+  color: #03CEA4;
 
+}
 /* ------/Experience------- */
 
 
@@ -127,7 +139,13 @@ h1 {
     font-size: 3rem;
   }
 
-  .experience{
+  .intro {
+    height: 90vh;
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .experience-body{
     margin-top: 100px;
     width: 300px;
     padding: 0 0 0 0;
