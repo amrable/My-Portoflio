@@ -46,13 +46,7 @@ h1 {
 }
 
 .right-separator{
-  width:50%;
-  display:inline-block;
-  background-color: white;
-
-}
-.left-separator{
-  width:50%;
+  width:45%;
   display:inline-block;
   background-color: white;
 
@@ -85,12 +79,45 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* ------------- */
+/* ------Experience------- */
+
+.experience{
+  width: 600px;
+}
+.title{
+  margin-top: 100px;
+  width: 60%;
+
+}
+
+.exp-separator{
+  width:30%;
+  display:inline-block;
+  background-color: white;
+
+}
+
+
+/* ------/Experience------- */
+
+
+
+
+
+
+
+
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 4rem;
+  }
+
+  .title{
+    margin-top: 100px;
+    width: 70%;
+
   }
 }
 
@@ -98,5 +125,21 @@ h1 {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 3rem;
+  }
+
+  .experience{
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .title{
+    margin-top: 100px;
+    width: 80%;
+
+  }
+  .tabs{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
