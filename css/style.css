@@ -1,4 +1,7 @@
-html{scroll-behavior:smooth}
+html {
+  scroll-behavior: smooth
+}
+
 body {
   background: -webkit-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
   background: -o-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
@@ -10,9 +13,12 @@ body {
 h1 {
   font-size: 5rem;
 }
-div{ clear:both; }
 
-.nav{
+div {
+  clear: both;
+}
+
+.nav {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -22,9 +28,6 @@ div{ clear:both; }
   border-bottom: 1px dashed #fff;
 }
 
-.text-uppercase {
-  letter-spacing: 0.1em;
-}
 
 .text-gray {
   color: #aaa;
@@ -41,102 +44,103 @@ div{ clear:both; }
   font-family: 'Raleway', sans-serif;
 }
 
-.right-separator{
-  width:45%;
-  display:inline-block;
+.right-separator {
+  width: 45%;
+  display: inline-block;
   background-color: white;
-
 }
-.about{
+
+.about {
   height: 85vh;
   padding-top: 100px;
   font-family: 'Raleway', sans-serif;
 }
-.about-img{
+
+.about-img {
   width: 250px;
-  border-radius:1000px;
+  border-radius: 1000px;
   margin: 25px auto auto auto;
   text-align: center;
 }
-.body{
+
+.body {
   margin-top: 25px;
 }
-.text-gray{
+
+.text-gray {
   color: #B7D4FF;
 }
-.text-green{
+
+.text-green {
   color: #03CEA4;
 }
-.btn-touch{
-    color: #03CEA4;
-    border-color: #03CEA4;
+
+.btn-touch {
+  color: #03CEA4;
+  border-color: #03CEA4;
 }
-.btn-touch:hover{
+
+.btn-touch:hover {
   background-color: #03CEA4;
   border-color: #03CEA4;
-
 }
-.intro-desc{
+
+.intro-desc {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-/* ------Experience------- */
 
-.experience{
+/* ------Experience------- */
+.experience {
   height: 85vh;
   padding-top: 200px;
   font-family: 'Raleway', sans-serif;
-
 }
 
-.experience-body{
+.experience-body {
   margin-top: 50px;
   width: 600px;
 }
-.title{
+
+.title {
   margin-top: 100px;
   width: 60%;
   font-family: 'Raleway', sans-serif;
-
 }
 
-.exp-separator{
-  width:30%;
-  display:inline-block;
+.exp-separator {
+  width: 30%;
+  display: inline-block;
   background-color: white;
-
 }
 
-.numbers{
+.numbers {
   font-family: 'Space Mono', monospace;
   color: #03CEA4;
-
 }
+
 /* ------/Experience------- */
-
-
-
-
-
-
-
-
-
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 4rem;
   }
 
-  .about{
+  .about {
     height: 150vh;
     padding-top: 100px;
     font-family: 'Raleway', sans-serif;
   }
-  .title{
+
+  .experience {
+    height: 100vh;
+    padding-top: 200px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .title {
     margin-top: 100px;
     width: 70%;
-
   }
 }
 
@@ -148,22 +152,22 @@ div{ clear:both; }
 
   .intro {
     height: 90vh;
-    padding-top: 50px;
+    padding-top: 0px;
     font-family: 'Raleway', sans-serif;
   }
 
-  .experience-body{
-    margin-top: 100px;
+  .experience-body {
+    margin-top: 0;
     width: 300px;
     padding: 0 0 0 0;
   }
 
-  .title{
-    margin-top: 100px;
+  .title {
+    margin-top: 00px;
     width: 80%;
-
   }
-  .tabs{
+
+  .tabs {
     width: 90%;
     margin-left: 0;
     margin-right: 0;
