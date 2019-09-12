@@ -93,7 +93,7 @@ div {
 /* ------Experience------- */
 .experience {
   height: 85vh;
-  padding-top: 200px;
+  margin-top: 200px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -124,6 +124,18 @@ div {
 	padding-top: 10px;
 }
 
+
+.footer{
+  coloer: #d3d3d3;
+  background-color: #333;
+  font-size: 3rem;
+  text-align: center;
+  margin: 50px 0 0 0 ;
+}
+.footer a{
+  margin: 10px 10px 10px 10px;
+  color: #d3d3d3;
+}
 /* ------/Experience------- */
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
@@ -139,7 +151,7 @@ div {
 
   .experience {
     height: 100vh;
-    padding-top: 200px;
+    margin-top: 200px;
     font-family: 'Raleway', sans-serif;
   }
 
