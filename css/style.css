@@ -1,3 +1,11 @@
+
+.navbar-fixed-top.scrolled {
+  background-color: #333 !important;
+  transition: background-color 200ms linear;
+
+}
+.mynav{  padding-left: 15%;
+  padding-right: 15%;}
 html {
   scroll-behavior: smooth
 }
