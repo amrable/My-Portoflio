@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 
 
@@ -22,10 +24,3 @@ $(document).ready(function() {
     $('#sidebar, #content').toggleClass('active');
   });
 });
-
-$(window).load(function() {
-  // Animate loader off screen
-  $(".se-pre-con").fadeOut("slow");
-});
-
-console.log("alo");
