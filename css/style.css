@@ -52,6 +52,19 @@ div {
   font-family: 'Raleway', sans-serif;
 }
 
+.panel{
+  margin-top: 100px;
+  width:100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #333;
+}
+.panel-element{
+  font-size: 2em;
+}
 .right-separator {
   width: 45%;
   display: inline-block;
@@ -134,11 +147,11 @@ div {
 
 
 .footer{
-  coloer: #d3d3d3;
+  color: #d3d3d3;
   background-color: #333;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
-  margin: 50px 0 0 0 ;
+  margin: 50px 10px 0px 10px ;
 }
 .footer a{
   margin: 10px 10px 10px 10px;
